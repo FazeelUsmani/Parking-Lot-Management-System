@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "65fdf191c4ff81d98fd34313"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdf1a0c4ff81d98fd34314"
+  },
+  "car_number": "TS11EA8522",
+  "slot_number": 2
+},
+{
+  "_id": {
+    "$oid": "65fdf1aec4ff81d98fd34315"
+  },
+  "car_number": "AP09BX3090",
+  "slot_number": 3
+},
+{
+  "_id": {
+    "$oid": "65fdf1c4c4ff81d98fd34316"
+  },
+  "car_number": "TS11EP5521",
+  "slot_number": 4
+},
+{
+  "_id": {
+    "$oid": "65fdf1cac4ff81d98fd34317"
+  },
+  "car_number": "TS11EU8648",
+  "slot_number": 5
+},
+{
+  "_id": {
+    "$oid": "65fdf3b35932dc26fac12dc0"
+  },
+  "car_number": "ABC123",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdf3b35932dc26fac12dc1"
+  },
+  "car_number": "ABC123",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdf483c14fff387202d3c3"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdf483c14fff387202d3c4"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdf7a0a1690c489462f430"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdf7a0a1690c489462f431"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdf80ddf8f83cae8336982"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdf80ddf8f83cae8336983"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdf87eb36e9fa7b42b7eae"
+  },
+  "car_number": "AP28DB8160",
+  "slot_number": 6
+},
+{
+  "_id": {
+    "$oid": "65fdf91e53add32c77335241"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdf91e53add32c77335242"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdfa1af610af4c6b8e4eb4"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+},
+{
+  "_id": {
+    "$oid": "65fdfa1af610af4c6b8e4eb5"
+  },
+  "car_number": "AP11AK1264",
+  "slot_number": 1
+}]

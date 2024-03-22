@@ -23,7 +23,7 @@ async def setup_and_teardown_db():
 # Test parking a car
 @pytest.mark.asyncio
 async def test_park_car(client):
-    response = await client.post("/parking/park", json={"car_number": "AP11AK1264"})  
+    response = await client.post("/parking/park", json={"car_number": "AP11AK1264"})
     assert response.status_code == 201
     assert response.json()["car_number"] == "AP11AK1264"
     assert "slot_number" in response.json()
