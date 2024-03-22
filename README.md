@@ -71,7 +71,7 @@ brew services start mongodb/brew/mongodb-community
 To start the server, run the following command:
 
 ```bash
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 
 ## API Endpoints

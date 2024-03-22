@@ -33,7 +33,7 @@ async def unpark_car(slot_number: int, slots_collection: Collection = Depends(ge
     return {"message": f"Car {result['car_number']} has been removed from slot {slot_number}"}
 
 @router.get("/getinfo", response_model=ParkingSlot)
-async def get_info(car_number: Union[str, None] = None, slot_number: Union[int, None] = None, slots_collection: Collection = Depends(get_slot_collection)):
+async def get_car_info(car_number: Union[str, None] = None, slot_number: Union[int, None] = None, slots_collection: Collection = Depends(get_slot_collection)):
     query = {"car_number": car_number} if car_number else {"slot_number": slot_number}
     slot_info = slots_collection.find_one(query)
     
