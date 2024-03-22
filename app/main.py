@@ -8,10 +8,15 @@ app.include_router(parking.router, prefix="/parking", tags=["parking"])
 
 @app.on_event("startup")
 async def startup_event():
-    # Perform startup tasks, such as verifying database connectivity
+    @app.on_event("startup")
+    async def startup_db_client():
+        try:            
+            client.admin.command('ping')
+            print("Connected to MongoDB")
+        except Exception as e:
+            print("Failed to connect to MongoDB", e)
     pass
 
 @app.on_event("shutdown")
 async def shutdown_event():
-    # Perform shutdown tasks, such as closing database connections
     client.close()
