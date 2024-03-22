@@ -44,21 +44,6 @@ brew install mongodb-community
 brew services start mongodb/brew/mongodb-community
 ```
 
-### Checking the Database Connection
-
-To verify that your application is connected to MongoDB, you can check the connection status in your FastAPI code:
-
-```python
-@app.on_event("startup")
-async def startup_db_client():
-    try:
-        # Attempt to fetch a document from the MongoDB server
-        client.admin.command('ping')
-        print("Connected to MongoDB")
-    except Exception as e:
-        print("Failed to connect to MongoDB", e)
-```
-
 ### Create an Environment Variable
 
 1. Copy `.env.sample` to `.env`.
